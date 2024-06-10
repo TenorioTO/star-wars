@@ -11,7 +11,7 @@ import {
 
 import { ColorBySpecie } from "../../shared/interfaces/color";
 import { useGetSpecie } from "../../hooks/useGetSpecie";
-import { getContrast70 } from "../../shared/helpers/getContrast70";
+import { getContrast70 } from "../../shared/helpers/getContrast50";
 import { Modal } from "../modal";
 import { SimpleTable } from "../table";
 import { Spacing } from "../../shared/constants/spacing";
