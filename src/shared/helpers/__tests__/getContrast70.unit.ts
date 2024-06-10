@@ -1,4 +1,4 @@
-import { getContrast70 } from "../getContrast50";
+import { getContrast70 } from "../getContrast70";
 
 test('getContrast70 returns "white" for dark colors', () => {
   expect(getContrast70("#000000")).toBe("white");
